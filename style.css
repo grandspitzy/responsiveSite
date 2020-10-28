@@ -1,7 +1,13 @@
 
 
-.my-container{
+.my-container {
     width: 90%;
-    margin: 0 auto;
+    margin:0 auto;
     max-width:1500px;
+
+}
+
+.my-background {
+    background-image: url(back.jpeg);
+    background-color: azure;
 }
