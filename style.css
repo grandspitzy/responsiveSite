@@ -28,3 +28,28 @@ body{
     margin-left:0;
     margin-right: auto;   
 }
+.brand-color{
+    color:white;
+    background-color:#44AB88;
+}
+
+.img1{
+    width:180px;
+    height:230px;
+}
+a{
+    color:black;
+}
+.active-page{
+    font-weight: bold;
+}
+.head-color{
+    color:#44AB88;
+    margin-bottom: 0;
+    
+}
+footer {
+
+    border: 2px solid #44AB88;        
+  }
+
