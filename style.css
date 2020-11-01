@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(back.jpeg);
     background-color: azure;
@@ -13,25 +16,24 @@ body{
     width: 90%;
     margin:0 auto;
     max-width:1500px;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 .main-content{
     padding: 20px 50px;
     background-color:white;    
     margin-left: 0;
-    margin-right:auto;
+    margin-right:auto;   
 }
-
-
-
+#hamburger{
+    color:#44AB88;
+}
 .brand-color{
     color:white;
     background-color:#44AB88;
 }
 
 .img1{
-    width:180px;
+    width:150px;
     height:230px;
     
 }
@@ -59,4 +61,11 @@ a{
     padding-bottom: 20px;
     border-top: 5px solid #44AB88;
   }
-  @media 
+  @media(max-width:576px) {
+      .my-container2, .container, .main-content{ 
+          width:100%;
+          margin-left: 0;
+          margin-right:0;
+          margin-bottom:0;       
+      }
+  }
