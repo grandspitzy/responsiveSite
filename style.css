@@ -31,12 +31,16 @@ body{
     color:white;
     background-color:#44AB88;
 }
+.but-color{
+    background-color:#44AB88;
+}
 
 .img1{
     width:150px;
     height:230px;
     
 }
+
 a{
     color:black;
 }
