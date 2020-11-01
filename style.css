@@ -14,20 +14,17 @@ body{
     margin:0 auto;
     max-width:1500px;
     margin-top: 20px;
-}
-
-.section-bg{
-    background-color:white;
-}
-
-.main-content{
-
-    padding: 20px 50px;
-    width:70%;    
-    margin-left:0;
-    margin-right: auto;   
     
 }
+.main-content{
+    padding: 20px 50px;
+    background-color:white;    
+    margin-left: 0;
+    margin-right:auto;
+}
+
+
+
 .brand-color{
     color:white;
     background-color:#44AB88;
@@ -36,6 +33,7 @@ body{
 .img1{
     width:180px;
     height:230px;
+    
 }
 a{
     color:black;
@@ -61,3 +59,4 @@ a{
     padding-bottom: 20px;
     border-top: 5px solid #44AB88;
   }
+  @media 
